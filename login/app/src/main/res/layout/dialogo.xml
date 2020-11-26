@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/gradiente_fondo">
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="90dp"
+        android:src="@drawable/paco"
+        android:layout_marginBottom="25dp"></ImageView>
+
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/texto2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Usuario:"></TextView>
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"></EditText>
+
+        <TextView
+            android:id="@+id/texto3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contraseña:"></TextView>
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"></EditText>
+
+        <Button
+            android:id="@+id/botonDialogo"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="INICIA SESIÓN"
+            android:backgroundTint="#89f7fe"
+            android:textColor="#000"
+            android:layout_gravity="center"></Button>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="¿Aún no estás registrado?"
+            android:textColor="#000"
+            android:textSize="10dp"
+            android:layout_gravity="center"></TextView>
+    </LinearLayout>
+
+</LinearLayout>
